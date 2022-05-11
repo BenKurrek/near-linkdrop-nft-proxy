@@ -41,3 +41,18 @@ to create a linkdrop, run the quickstart script but make sure you have the crede
 ```
 node quickstart.js
 ```
+
+This will initialize the contract with default metadata and create a linkdrop with an attached 0.9778 $NEAR (1 $NEAR - 0.2282 $NEAR). If you want to change this value, you can edit the `parseNearAmount('1')` value in line 69 of the `quickstart.js` file.
+
+To access the linkdrop, the console will log the link you need to navigate to: 
+<img width="1723" alt="image" src="https://user-images.githubusercontent.com/57506486/167914646-a62b1b70-1999-4619-9727-61bbb31a4483.png">
+
+```
+https://wallet.testnet.near.org/linkdrop/dev-1652291366144-14872936582999/4RL21tCWig5ZXiqcFaBgSGUNLkk41UJjhWz62wyNrtHC1rnYxJx6XjQpV1bkJ4ttUeUawdm8wL8xRScH1MqJj8YU
+```
+
+After clicking the link and either claiming with an existing account or creating a new account, navigate to the collectibles tab and you should have your NFT: 
+
+<img width="660" alt="image" src="https://user-images.githubusercontent.com/57506486/167914914-cccd65e8-5a56-486e-8811-d5d4a32ffe14.png">
+
+
